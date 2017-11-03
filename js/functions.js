@@ -1,5 +1,6 @@
 (function ($) {
 	
+	alert("Hello! I am an alert box!!");
 	//jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
 		$('.navbar-nav li a').bind('click', function(event) {
@@ -25,10 +26,9 @@
     
 	})
 	
-	$('.parallax-window').parallax({imageSrc: 'img/3.png'});
+	$('.parallax-window').parallax({imageSrc: 'img/6.jpg'});
 	
     wow = new WOW({}).init();
 		
 
 })(jQuery);
-
