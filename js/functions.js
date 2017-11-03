@@ -1,6 +1,5 @@
 (function ($) {
 	
-
 	//jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
 		$('.navbar-nav li a').bind('click', function(event) {
@@ -26,9 +25,10 @@
     
 	})
 	
-	$('.parallax-window').parallax({imageSrc: 'img/6.jpg'});
+	$('.parallax-window').parallax({imageSrc: 'img/foret.jpg'});
 	
     wow = new WOW({}).init();
 		
 
 })(jQuery);
+
